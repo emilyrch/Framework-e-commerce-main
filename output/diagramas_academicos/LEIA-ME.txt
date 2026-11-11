@@ -1,0 +1,13 @@
+DIAGRAMAS ACADÊMICOS DA LPS
+
+Arquivos SVG vetoriais: textos e formas podem ser editados no Inkscape ou outro editor vetorial.
+
+01_features: árvore de features, obrigatoriedade e escolha exclusiva XOR.
+02_camadas: arquitetura lógica e dependências entre camadas; não é fluxo temporal.
+03_componentes_uml: componentes, portas, interfaces fornecidas/requeridas e montagem.
+04_variabilidade_uml: realização conceitual dos Protocols e restrições por configuração.
+05_implantacao: processos, comunicação HTTP e artefatos privados; não comprova execução.
+
+Interfaces I* são rótulos conceituais para APIs existentes. Portas UML são pontos de interação, não números TCP. Componentes concretos de domínio realizam Protocols por tipagem estrutural. Alternativas não estão todas ativas simultaneamente.
+
+Fontes: código de domain/, foundation/, services/ e apps/store-ropa/src/; docs/modelo-lps.md; OMG UML 2.5.1, https://www.omg.org/spec/UML/2.5.1/ (2017).

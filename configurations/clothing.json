@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "store_id": "roupas-demo",
+  "display_name": "Loja de Roupas Demo",
+  "domain": "clothing",
+  "currency": "BRL",
+  "timezone": "America/Sao_Paulo",
+  "features": ["catalog", "cart", "checkout", "orders", "simulated_pix", "address_delivery", "size_color_selection"],
+  "catalog": {
+    "dataset_id": "clothing-demo-v1",
+    "schema_version": 1,
+    "source": "demo-data/clothing/products.json"
+  },
+  "delivery": {
+    "policy": "unscheduled",
+    "shipping_cents": 0
+  },
+  "payment": {
+    "provider": "simulated_pix",
+    "discount_cents": 0
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "store_id": "roupas-demo",
+  "domain": "clothing",
+  "dataset_id": "clothing-demo-v1",
+  "fictional": true,
+  "products": [
+    {
+      "id": "camiseta",
+      "kind": "clothing",
+      "name": "Camiseta Essencial Demo",
+      "description": "Camiseta de malha fictícia para uso cotidiano. Combinações disponíveis não representam estoque físico.",
+      "category": "Camisetas e camisas",
+      "price_cents": 8990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/camiseta.png",
+      "combinations": [
+        {
+          "id": "camiseta-m-preta",
+          "size": "M",
+          "color": "preta",
+          "enabled": true
+        },
+        {
+          "id": "camiseta-g-preta",
+          "size": "G",
+          "color": "preta",
+          "enabled": true
+        },
+        {
+          "id": "camiseta-g-azul",
+          "size": "G",
+          "color": "azul",
+          "enabled": true
+        },
+        {
+          "id": "camiseta-p-branca",
+          "size": "P",
+          "color": "branca",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "calca-sarja",
+      "kind": "clothing",
+      "name": "Calça de Sarja Demo",
+      "description": "Calça fictícia de corte reto com bolsos laterais.",
+      "category": "Calças",
+      "price_cents": 15990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/calca-sarja.png",
+      "combinations": [
+        {
+          "id": "calca-sarja-38-bege",
+          "size": "38",
+          "color": "bege",
+          "enabled": true
+        },
+        {
+          "id": "calca-sarja-40-bege",
+          "size": "40",
+          "color": "bege",
+          "enabled": true
+        },
+        {
+          "id": "calca-sarja-42-marinho",
+          "size": "42",
+          "color": "azul-marinho",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "jaqueta-leve",
+      "kind": "clothing",
+      "name": "Jaqueta Leve Demo",
+      "description": "Jaqueta fictícia com fechamento frontal, indicada apenas como dado de demonstração.",
+      "category": "Jaquetas e blazers",
+      "price_cents": 22990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/jaqueta-leve.png",
+      "combinations": [
+        {
+          "id": "jaqueta-leve-m-verde",
+          "size": "M",
+          "color": "verde",
+          "enabled": true
+        },
+        {
+          "id": "jaqueta-leve-g-cinza",
+          "size": "G",
+          "color": "cinza",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "vestido-midi",
+      "kind": "clothing",
+      "name": "Vestido Midi Demo",
+      "description": "Vestido fictício de comprimento midi e modelagem ampla.",
+      "category": "Saias e vestidos",
+      "price_cents": 18990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/vestido-midi.png",
+      "combinations": [
+        {
+          "id": "vestido-midi-p-vinho",
+          "size": "P",
+          "color": "vinho",
+          "enabled": true
+        },
+        {
+          "id": "vestido-midi-m-vinho",
+          "size": "M",
+          "color": "vinho",
+          "enabled": true
+        },
+        {
+          "id": "vestido-midi-g-preto",
+          "size": "G",
+          "color": "preto",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "bermuda-moletom",
+      "kind": "clothing",
+      "name": "Bermuda de Moletom Demo",
+      "description": "Bermuda fictícia com cintura elástica e dois bolsos.",
+      "category": "Bermudas",
+      "price_cents": 7990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/bermuda-moletom.png",
+      "combinations": [
+        {
+          "id": "bermuda-moletom-m-cinza",
+          "size": "M",
+          "color": "cinza",
+          "enabled": true
+        },
+        {
+          "id": "bermuda-moletom-g-cinza",
+          "size": "G",
+          "color": "cinza",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "moletom-capuz",
+      "kind": "clothing",
+      "name": "Moletom com Capuz Demo",
+      "description": "Moletom fictício com capuz e bolso frontal.",
+      "category": "Moletons e tricôs",
+      "price_cents": 17990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/moletom-capuz.png",
+      "combinations": [
+        {
+          "id": "moletom-capuz-m-marinho",
+          "size": "M",
+          "color": "azul-marinho",
+          "enabled": true
+        },
+        {
+          "id": "moletom-capuz-g-marinho",
+          "size": "G",
+          "color": "azul-marinho",
+          "enabled": true
+        },
+        {
+          "id": "moletom-capuz-gg-preto",
+          "size": "GG",
+          "color": "preto",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "camisa-linho",
+      "kind": "clothing",
+      "name": "Camisa de Linho Demo",
+      "description": "Camisa de manga longa em linho fictício, com botões e modelagem confortável. Imagem ilustrativa. Sem controle de estoque.",
+      "category": "Camisetas e camisas",
+      "price_cents": 12990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/camisa-linho.png",
+      "combinations": [
+        {
+          "id": "camisa-linho-p-branca",
+          "size": "P",
+          "color": "branca",
+          "enabled": true
+        },
+        {
+          "id": "camisa-linho-m-branca",
+          "size": "M",
+          "color": "branca",
+          "enabled": true
+        },
+        {
+          "id": "camisa-linho-g-bege",
+          "size": "G",
+          "color": "bege",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "blazer-alfaiataria",
+      "kind": "clothing",
+      "name": "Blazer de Alfaiataria Demo",
+      "description": "Blazer fictício de corte reto com lapelas e dois botões. Imagem ilustrativa. Sem controle de estoque.",
+      "category": "Jaquetas e blazers",
+      "price_cents": 24990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/blazer-alfaiataria.png",
+      "combinations": [
+        {
+          "id": "blazer-alfaiataria-m-cinza-chumbo",
+          "size": "M",
+          "color": "cinza-chumbo",
+          "enabled": true
+        },
+        {
+          "id": "blazer-alfaiataria-g-cinza-chumbo",
+          "size": "G",
+          "color": "cinza-chumbo",
+          "enabled": true
+        },
+        {
+          "id": "blazer-alfaiataria-g-preta",
+          "size": "G",
+          "color": "preta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "saia-plissada",
+      "kind": "clothing",
+      "name": "Saia Plissada Demo",
+      "description": "Saia midi fictícia com pregas e cós simples. Imagem ilustrativa. Sem controle de estoque.",
+      "category": "Saias e vestidos",
+      "price_cents": 11990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/saia-plissada.png",
+      "combinations": [
+        {
+          "id": "saia-plissada-p-bege",
+          "size": "P",
+          "color": "bege",
+          "enabled": true
+        },
+        {
+          "id": "saia-plissada-m-bege",
+          "size": "M",
+          "color": "bege",
+          "enabled": true
+        },
+        {
+          "id": "saia-plissada-g-preta",
+          "size": "G",
+          "color": "preta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "cardiga-tricot",
+      "kind": "clothing",
+      "name": "Cardigã de Tricô Demo",
+      "description": "Cardigã fictício de manga longa, gola V e fechamento com botões. Imagem ilustrativa. Sem controle de estoque.",
+      "category": "Moletons e tricôs",
+      "price_cents": 15990,
+      "currency": "BRL",
+      "image_url": "/demo/clothing/cardiga-tricot.png",
+      "combinations": [
+        {
+          "id": "cardiga-tricot-p-creme",
+          "size": "P",
+          "color": "creme",
+          "enabled": true
+        },
+        {
+          "id": "cardiga-tricot-m-creme",
+          "size": "M",
+          "color": "creme",
+          "enabled": true
+        },
+        {
+          "id": "cardiga-tricot-g-cinza",
+          "size": "G",
+          "color": "cinza",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

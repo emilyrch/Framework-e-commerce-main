@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="453.54" height="296" preserveAspectRatio="xMinYMin meet" viewBox="0 0 453 296" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="453.54" height="296"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-296)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="5" y="238" width="443" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="238" width="49" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="23.665" y="256" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,512) scale(1,-1)">L1</text>
+			<text x="219.58825" y="265" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,530) scale(1,-1)">Apresentação</text>
+			<text x="165.7733" y="249" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,498) scale(1,-1)">Storefront, ProductMedia e configuração visual</text>
+			<rect x="5" y="184" width="443" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="184" width="49" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="23.665" y="202" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,404) scale(1,-1)">L2</text>
+			<text x="185.79675" y="211" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,422) scale(1,-1)">Fronteira web e API Gateway</text>
+			<text x="160.31210000000002" y="195" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,390) scale(1,-1)">Route Handlers, sessão, Origin e validação HTTP</text>
+			<rect x="5" y="130" width="443" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="130" width="49" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="23.665" y="148" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,296) scale(1,-1)">L3</text>
+			<text x="198.199" y="157" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,314) scale(1,-1)">Aplicação dos serviços</text>
+			<text x="169.4223" y="141" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,282) scale(1,-1)">Catálogo, revisão, compra e recomendações</text>
+			<rect x="5" y="76" width="443" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="76" width="49" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="23.665" y="94" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,188) scale(1,-1)">L4</text>
+			<text x="206.12675" y="103" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,206) scale(1,-1)">Domínio reutilizável</text>
+			<text x="170.3243" y="87" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,174) scale(1,-1)">Seleção, entrega, totais e contratos Protocol</text>
+			<rect x="5" y="22" width="443" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="22" width="49" height="44" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.85; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="23.665" y="40" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,80) scale(1,-1)">L5</text>
+			<text x="186.59474999999998" y="49" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,98) scale(1,-1)">Infraestrutura e adaptadores</text>
+			<text x="153.9366" y="33" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,66) scale(1,-1)">Clientes HTTP, repositórios privados, JSON e SQLite</text>
+			<path d="M 251 238 L 251 228 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<path d="M 254.2 233 L 251 228 L 247.8 233 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 251 184 L 251 174 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<path d="M 254.2 179 L 251 174 L 247.8 179 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 251 130 L 251 120 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<path d="M 254.2 125 L 251 120 L 247.8 125 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 251 76 L 251 66 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<path d="M 254.2 71 L 251 66 L 247.8 71 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="7" y="5" style="font-family: Helvetica; font-size: 7.4px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,10) scale(1,-1)">Dependência lógica permitida (tracejada). Camadas não são processos.</text>
+		</g>
+	</g>
+</svg>

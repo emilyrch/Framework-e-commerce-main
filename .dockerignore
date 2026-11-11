@@ -1,0 +1,14 @@
+.git
+.venv
+**/.venv
+.local
+var
+history
+**/node_modules
+**/.next
+**/__pycache__
+**/*.db
+**/*.sqlite*
+**/.env*
+!**/.env.example
+**/*.tsbuildinfo

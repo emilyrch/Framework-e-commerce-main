@@ -1,0 +1,4 @@
+{
+  "name": "Loja Básica",
+  "features": ["catalog", "orders", "payments", "pix"]
+}

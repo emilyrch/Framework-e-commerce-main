@@ -1,0 +1,88 @@
+x-backend: &backend
+  build:
+    context: .
+    dockerfile: Dockerfile
+  volumes:
+    - ${PRODUCT_CONFIG:?Generate the per-store env file}:/app/configurations/selected.json:ro
+  restart: "no"
+
+services:
+  catalog:
+    <<: *backend
+    command: ["python", "-m", "uvicorn", "services.catalog.app:app", "--host", "0.0.0.0", "--port", "8001", "--workers", "1"]
+    environment:
+      PRODUCT_CONFIG: /app/configurations/selected.json
+      CATALOG_DATA_ROOT: /app/demo-data
+      WEB_CATALOG_TOKEN: ${WEB_CATALOG_TOKEN:?Missing credential}
+      ORDERS_CATALOG_TOKEN: ${ORDERS_CATALOG_TOKEN:?Missing credential}
+    volumes:
+      - ${PRODUCT_CONFIG:?Generate the per-store env file}:/app/configurations/selected.json:ro
+      - ./demo-data:/app/demo-data:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8001/health/live', timeout=1)"]
+      interval: 10s
+      timeout: 2s
+      retries: 3
+  payments:
+    <<: *backend
+    command: ["python", "-m", "uvicorn", "services.payments.app:app", "--host", "0.0.0.0", "--port", "8003", "--workers", "1"]
+    environment:
+      PRODUCT_CONFIG: /app/configurations/selected.json
+      DATA_DIR: /data
+      WEB_PAYMENTS_TOKEN: ${WEB_PAYMENTS_TOKEN:?Missing credential}
+      ORDERS_PAYMENTS_TOKEN: ${ORDERS_PAYMENTS_TOKEN:?Missing credential}
+    volumes:
+      - ${PRODUCT_CONFIG:?Generate the per-store env file}:/app/configurations/selected.json:ro
+      - payments-data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8003/health/live', timeout=1)"]
+      interval: 10s
+      timeout: 2s
+      retries: 3
+  orders:
+    <<: *backend
+    command: ["python", "-m", "uvicorn", "services.orders.app:app", "--host", "0.0.0.0", "--port", "8002", "--workers", "1"]
+    environment:
+      PRODUCT_CONFIG: /app/configurations/selected.json
+      DATA_DIR: /data
+      CATALOG_URL: http://catalog:8001
+      PAYMENTS_URL: http://payments:8003
+      WEB_ORDERS_TOKEN: ${WEB_ORDERS_TOKEN:?Missing credential}
+      ORDERS_CATALOG_TOKEN: ${ORDERS_CATALOG_TOKEN:?Missing credential}
+      ORDERS_PAYMENTS_TOKEN: ${ORDERS_PAYMENTS_TOKEN:?Missing credential}
+    volumes:
+      - ${PRODUCT_CONFIG:?Generate the per-store env file}:/app/configurations/selected.json:ro
+      - orders-data:/data
+    depends_on: [catalog, payments]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8002/health/live', timeout=1)"]
+      interval: 10s
+      timeout: 2s
+      retries: 3
+  frontend:
+    build:
+      context: .
+      dockerfile: apps/store-ropa/Dockerfile
+    environment:
+      PRODUCT_CONFIG: /app/configurations/selected.json
+      LPS_ROOT: /app
+      CATALOG_URL: http://catalog:8001
+      ORDERS_URL: http://orders:8002
+      PAYMENTS_URL: http://payments:8003
+      WEB_CATALOG_TOKEN: ${WEB_CATALOG_TOKEN:?Missing credential}
+      WEB_ORDERS_TOKEN: ${WEB_ORDERS_TOKEN:?Missing credential}
+      WEB_PAYMENTS_TOKEN: ${WEB_PAYMENTS_TOKEN:?Missing credential}
+      SESSION_SECRET: ${SESSION_SECRET:?Missing session secret}
+      WEB_ORIGIN: ${WEB_ORIGIN:-http://127.0.0.1:3000}
+    volumes:
+      - ${PRODUCT_CONFIG:?Generate the per-store env file}:/app/configurations/selected.json:ro
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on: [catalog, orders, payments]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/health/live').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 2s
+      retries: 3
+volumes:
+  orders-data:
+  payments-data:

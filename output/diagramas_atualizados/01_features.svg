@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="453.54" height="310" preserveAspectRatio="xMinYMin meet" viewBox="0 0 453 310" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="453.54" height="310"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-310)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="140" y="270" width="174" height="32" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="183.81875" y="283.0" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,566) scale(1,-1)">E-commerce LPS</text>
+			<rect x="5" y="213" width="215" height="30" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="80.244" y="225.0" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,450) scale(1,-1)">Núcleo comum</text>
+			<rect x="254" y="213" width="195" height="30" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="317.993" y="225.0" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,450) scale(1,-1)">Domínio da loja</text>
+			<path d="M 227 270 L 227 253 L 112.5 253 L 112.5 246 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 227 253 L 351.5 253 L 351.5 246 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="112.5" cy="246" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<circle cx="351.5" cy="246" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<path d="M 112.5 213 L 112.5 202 L 20 202 L 20 35 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<rect x="40" y="174" width="180" height="22" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="112.1911" y="182.0" style="font-family: Helvetica; font-size: 8.9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,364) scale(1,-1)">Catálogo</text>
+			<path d="M 20 185 L 33 185 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="36" cy="185" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="40" y="149" width="180" height="22" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="112.9387" y="157.0" style="font-family: Helvetica; font-size: 8.9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,314) scale(1,-1)">Carrinho</text>
+			<path d="M 20 160 L 33 160 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="36" cy="160" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="40" y="124" width="180" height="22" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="111.2032" y="132.0" style="font-family: Helvetica; font-size: 8.9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,264) scale(1,-1)">Checkout</text>
+			<path d="M 20 135 L 33 135 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="36" cy="135" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="40" y="99" width="180" height="22" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="92.40195" y="107.0" style="font-family: Helvetica; font-size: 8.9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,214) scale(1,-1)">Pedidos e consulta</text>
+			<path d="M 20 110 L 33 110 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="36" cy="110" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="40" y="74" width="180" height="22" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="104.7774" y="82.0" style="font-family: Helvetica; font-size: 8.9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,164) scale(1,-1)">Pix simulado</text>
+			<path d="M 20 85 L 33 85 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="36" cy="85" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="40" y="49" width="180" height="22" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="88.44145" y="57.0" style="font-family: Helvetica; font-size: 8.9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,114) scale(1,-1)">Endereço de entrega</text>
+			<path d="M 20 60 L 33 60 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="36" cy="60" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="40" y="24" width="180" height="22" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="66.19145" y="32.0" style="font-family: Helvetica; font-size: 8.9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,64) scale(1,-1)">Recomendações (extensão fixa)</text>
+			<path d="M 20 35 L 33 35 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="36" cy="35" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="254" y="146" width="86" height="30" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="280.4985" y="158.0" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,316) scale(1,-1)">Roupas</text>
+			<rect x="363" y="146" width="86" height="30" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="384.247" y="158.0" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,316) scale(1,-1)">Alimentos</text>
+			<path d="M 351.5 213 L 297 176 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 351.5 213 L 406 176 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 337.435053 203.451321 C 340.599212 198.790601 345.866688 196 351.5 196 C 357.133312 196 362.400788 198.790601 365.564947 203.451321 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="343.16" y="186" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,372) scale(1,-1)">[1..1]</text>
+			<rect x="254" y="91" width="86" height="34" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="269.4275" y="110.8" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,221) scale(1,-1)">Tamanho e cor</text>
+			<text x="267.8326" y="99.2" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,198) scale(1,-1)">por combinação</text>
+			<path d="M 297 146 L 297 128 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="297" cy="128" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<path d="M 406 146 L 406 136 L 350 136 L 350 54 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<rect x="363" y="91" width="86" height="34" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="383.4418" y="110.8" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,221) scale(1,-1)">Informações</text>
+			<text x="384.8112" y="99.2" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,198) scale(1,-1)">alimentares</text>
+			<path d="M 350 108 L 356 108 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="359" cy="108" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<rect x="363" y="37" width="86" height="34" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="380.4734" y="56.8" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,113) scale(1,-1)">Agendamento</text>
+			<text x="386.3979" y="45.199999999999996" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,90) scale(1,-1)">de entrega</text>
+			<path d="M 350 54 L 356 54 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="359" cy="54" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<circle cx="10" cy="15" r="3" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,25%); fill-rule: evenodd;"/>
+			<text x="20" y="12" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,24) scale(1,-1)">Obrigatória</text>
+			<path d="M 126.627632 14.837812 C 128.311871 12.432469 131.063619 11 134 11 C 136.936381 11 139.688129 12.432469 141.372368 14.837812 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="149" y="12" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,24) scale(1,-1)">Arco vazio: alternativa XOR [1..1]</text>
+		</g>
+	</g>
+</svg>

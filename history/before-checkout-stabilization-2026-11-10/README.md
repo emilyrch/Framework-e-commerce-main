@@ -1,0 +1,1 @@
+Fontes preservadas antes da estabilização de 10/11/2026. Não havia .git. Storefront.tsx e next.config.ts foram copiados; não há bancos, segredos ou node_modules. Comparar antes de qualquer restauração; não executar como variante ativa. next.config.ts não foi alterado neste incremento.

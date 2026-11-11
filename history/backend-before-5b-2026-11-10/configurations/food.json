@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "store_id": "alimentos-demo",
+  "display_name": "Loja de Alimentos Demo",
+  "domain": "food",
+  "currency": "BRL",
+  "timezone": "America/Sao_Paulo",
+  "features": ["catalog", "cart", "checkout", "orders", "simulated_pix", "address_delivery", "food_information", "delivery_scheduling"],
+  "catalog": {
+    "dataset_id": "food-demo-v1",
+    "schema_version": 1,
+    "source": "demo-data/food/products.json"
+  },
+  "delivery": {
+    "policy": "scheduled",
+    "shipping_cents": 0,
+    "schedule": {
+      "policy_id": "food-windows-v1",
+      "days_ahead": 7,
+      "daily_windows": [
+        {"id": "morning", "start": "09:00", "end": "12:00", "enabled": true},
+        {"id": "afternoon", "start": "14:00", "end": "17:00", "enabled": true}
+      ]
+    }
+  },
+  "payment": {
+    "provider": "simulated_pix",
+    "discount_cents": 0
+  }
+}

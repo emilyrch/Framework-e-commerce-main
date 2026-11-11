@@ -1,0 +1,962 @@
+[
+  {
+    "name": "clothing",
+    "valid": true,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    },
+    "config_hash": "d426edb583e7fdddcd12ced22e6d2c61760f8870a9ae864f42f7a15099cd7df7"
+  },
+  {
+    "name": "clothing-reordered",
+    "valid": true,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "size_color_selection",
+        "address_delivery",
+        "simulated_pix",
+        "orders",
+        "checkout",
+        "cart",
+        "catalog"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    },
+    "config_hash": "d426edb583e7fdddcd12ced22e6d2c61760f8870a9ae864f42f7a15099cd7df7"
+  },
+  {
+    "name": "clothing-unicode",
+    "valid": true,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja 👕 ç",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    },
+    "config_hash": "7464c6df309c62e923334618854092e3ca63817f19a738ae517cc06cfde6f090"
+  },
+  {
+    "name": "food",
+    "valid": true,
+    "config": {
+      "catalog": {
+        "dataset_id": "food-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/food/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "scheduled",
+        "schedule": {
+          "daily_windows": [
+            {
+              "enabled": true,
+              "end": "12:00",
+              "id": "morning",
+              "start": "09:00"
+            },
+            {
+              "enabled": true,
+              "end": "17:00",
+              "id": "afternoon",
+              "start": "14:00"
+            }
+          ],
+          "days_ahead": 7,
+          "policy_id": "food-windows-v1"
+        },
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Alimentos Demo",
+      "domain": "food",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "food_information",
+        "delivery_scheduling"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "alimentos-demo",
+      "timezone": "America/Sao_Paulo"
+    },
+    "config_hash": "c1d246396dbe593ee1345c988ef390bf4f6e6faf477c05df5631a09a943549f0"
+  },
+  {
+    "name": "food-reordered",
+    "valid": true,
+    "config": {
+      "catalog": {
+        "dataset_id": "food-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/food/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "scheduled",
+        "schedule": {
+          "daily_windows": [
+            {
+              "enabled": true,
+              "end": "12:00",
+              "id": "morning",
+              "start": "09:00"
+            },
+            {
+              "enabled": true,
+              "end": "17:00",
+              "id": "afternoon",
+              "start": "14:00"
+            }
+          ],
+          "days_ahead": 7,
+          "policy_id": "food-windows-v1"
+        },
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Alimentos Demo",
+      "domain": "food",
+      "features": [
+        "delivery_scheduling",
+        "food_information",
+        "address_delivery",
+        "simulated_pix",
+        "orders",
+        "checkout",
+        "cart",
+        "catalog"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "alimentos-demo",
+      "timezone": "America/Sao_Paulo"
+    },
+    "config_hash": "c1d246396dbe593ee1345c988ef390bf4f6e6faf477c05df5631a09a943549f0"
+  },
+  {
+    "name": "food-unicode",
+    "valid": true,
+    "config": {
+      "catalog": {
+        "dataset_id": "food-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/food/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "scheduled",
+        "schedule": {
+          "daily_windows": [
+            {
+              "enabled": true,
+              "end": "12:00",
+              "id": "morning",
+              "start": "09:00"
+            },
+            {
+              "enabled": true,
+              "end": "17:00",
+              "id": "afternoon",
+              "start": "14:00"
+            }
+          ],
+          "days_ahead": 7,
+          "policy_id": "food-windows-v1"
+        },
+        "shipping_cents": 0
+      },
+      "display_name": "Loja 👕 ç",
+      "domain": "food",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "food_information",
+        "delivery_scheduling"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "alimentos-demo",
+      "timezone": "America/Sao_Paulo"
+    },
+    "config_hash": "a2a634022271780ae8f17ce6b558dd30c52e2b2f40b5a87555c39854a2b04c65"
+  },
+  {
+    "name": "extra",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo",
+      "unknown": true
+    }
+  },
+  {
+    "name": "missing",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "duplicate",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection",
+        "catalog"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "wrong-domain",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "food",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "xor",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": [
+        "food",
+        "clothing"
+      ],
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "bool-version",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": true,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "old-schema",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 2,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "missing-feature",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "private-path",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/../secret.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "wrong-payment",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "card"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "float-version",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1.5,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "wrong-delivery",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0,
+        "schedule": {}
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "duplicate-window",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "food-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/food/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "scheduled",
+        "schedule": {
+          "daily_windows": [
+            {
+              "enabled": true,
+              "end": "12:00",
+              "id": "morning",
+              "start": "09:00"
+            },
+            {
+              "enabled": true,
+              "end": "17:00",
+              "id": "morning",
+              "start": "14:00"
+            }
+          ],
+          "days_ahead": 7,
+          "policy_id": "food-windows-v1"
+        },
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Alimentos Demo",
+      "domain": "food",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "food_information",
+        "delivery_scheduling"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "alimentos-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "overlap",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "food-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/food/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "scheduled",
+        "schedule": {
+          "daily_windows": [
+            {
+              "enabled": true,
+              "end": "12:00",
+              "id": "morning",
+              "start": "09:00"
+            },
+            {
+              "enabled": true,
+              "end": "17:00",
+              "id": "afternoon",
+              "start": "10:00"
+            }
+          ],
+          "days_ahead": 7,
+          "policy_id": "food-windows-v1"
+        },
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Alimentos Demo",
+      "domain": "food",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "food_information",
+        "delivery_scheduling"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "alimentos-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "bad-clock",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "food-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/food/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "scheduled",
+        "schedule": {
+          "daily_windows": [
+            {
+              "enabled": true,
+              "end": "12:00",
+              "id": "morning",
+              "start": "29:00"
+            },
+            {
+              "enabled": true,
+              "end": "17:00",
+              "id": "afternoon",
+              "start": "14:00"
+            }
+          ],
+          "days_ahead": 7,
+          "policy_id": "food-windows-v1"
+        },
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Alimentos Demo",
+      "domain": "food",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "food_information",
+        "delivery_scheduling"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "alimentos-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "reverse-window",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "food-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/food/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "scheduled",
+        "schedule": {
+          "daily_windows": [
+            {
+              "enabled": true,
+              "end": "08:00",
+              "id": "morning",
+              "start": "09:00"
+            },
+            {
+              "enabled": true,
+              "end": "17:00",
+              "id": "afternoon",
+              "start": "14:00"
+            }
+          ],
+          "days_ahead": 7,
+          "policy_id": "food-windows-v1"
+        },
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Alimentos Demo",
+      "domain": "food",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "food_information",
+        "delivery_scheduling"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "alimentos-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "control-character",
+    "valid": false,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "invalid\nname",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    }
+  },
+  {
+    "name": "integer-json-notation",
+    "valid": true,
+    "config": {
+      "catalog": {
+        "dataset_id": "clothing-demo-v1",
+        "schema_version": 1,
+        "source": "demo-data/clothing/products.json"
+      },
+      "currency": "BRL",
+      "delivery": {
+        "policy": "unscheduled",
+        "shipping_cents": 0
+      },
+      "display_name": "Loja de Roupas Demo",
+      "domain": "clothing",
+      "features": [
+        "catalog",
+        "cart",
+        "checkout",
+        "orders",
+        "simulated_pix",
+        "address_delivery",
+        "size_color_selection"
+      ],
+      "payment": {
+        "discount_cents": 0,
+        "provider": "simulated_pix"
+      },
+      "schema_version": 1.0,
+      "store_id": "roupas-demo",
+      "timezone": "America/Sao_Paulo"
+    },
+    "config_hash": "d426edb583e7fdddcd12ced22e6d2c61760f8870a9ae864f42f7a15099cd7df7"
+  }
+]

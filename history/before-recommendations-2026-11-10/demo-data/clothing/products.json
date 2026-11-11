@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "store_id": "roupas-demo",
+  "domain": "clothing",
+  "dataset_id": "clothing-demo-v1",
+  "fictional": true,
+  "products": [
+    {
+      "id": "camiseta",
+      "kind": "clothing",
+      "name": "Camiseta Essencial Demo",
+      "description": "Camiseta de malha fictícia para uso cotidiano. Combinações disponíveis não representam estoque físico.",
+      "category": "Camisetas",
+      "price_cents": 8990,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "combinations": [
+        {
+          "id": "camiseta-m-preta",
+          "size": "M",
+          "color": "preta",
+          "enabled": true
+        },
+        {
+          "id": "camiseta-g-preta",
+          "size": "G",
+          "color": "preta",
+          "enabled": true
+        },
+        {
+          "id": "camiseta-g-azul",
+          "size": "G",
+          "color": "azul",
+          "enabled": true
+        },
+        {
+          "id": "camiseta-p-branca",
+          "size": "P",
+          "color": "branca",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "calca-sarja",
+      "kind": "clothing",
+      "name": "Calça de Sarja Demo",
+      "description": "Calça fictícia de corte reto com bolsos laterais.",
+      "category": "Calças",
+      "price_cents": 15990,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "combinations": [
+        {
+          "id": "calca-sarja-38-bege",
+          "size": "38",
+          "color": "bege",
+          "enabled": true
+        },
+        {
+          "id": "calca-sarja-40-bege",
+          "size": "40",
+          "color": "bege",
+          "enabled": true
+        },
+        {
+          "id": "calca-sarja-42-marinho",
+          "size": "42",
+          "color": "azul-marinho",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "jaqueta-leve",
+      "kind": "clothing",
+      "name": "Jaqueta Leve Demo",
+      "description": "Jaqueta fictícia com fechamento frontal, indicada apenas como dado de demonstração.",
+      "category": "Jaquetas",
+      "price_cents": 22990,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "combinations": [
+        {
+          "id": "jaqueta-leve-m-verde",
+          "size": "M",
+          "color": "verde",
+          "enabled": true
+        },
+        {
+          "id": "jaqueta-leve-g-cinza",
+          "size": "G",
+          "color": "cinza",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "vestido-midi",
+      "kind": "clothing",
+      "name": "Vestido Midi Demo",
+      "description": "Vestido fictício de comprimento midi e modelagem ampla.",
+      "category": "Vestidos",
+      "price_cents": 18990,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "combinations": [
+        {
+          "id": "vestido-midi-p-vinho",
+          "size": "P",
+          "color": "vinho",
+          "enabled": true
+        },
+        {
+          "id": "vestido-midi-m-vinho",
+          "size": "M",
+          "color": "vinho",
+          "enabled": true
+        },
+        {
+          "id": "vestido-midi-g-preto",
+          "size": "G",
+          "color": "preto",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "bermuda-moletom",
+      "kind": "clothing",
+      "name": "Bermuda de Moletom Demo",
+      "description": "Bermuda fictícia com cintura elástica e dois bolsos.",
+      "category": "Bermudas",
+      "price_cents": 7990,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "combinations": [
+        {
+          "id": "bermuda-moletom-m-cinza",
+          "size": "M",
+          "color": "cinza",
+          "enabled": true
+        },
+        {
+          "id": "bermuda-moletom-g-cinza",
+          "size": "G",
+          "color": "cinza",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "moletom-capuz",
+      "kind": "clothing",
+      "name": "Moletom com Capuz Demo",
+      "description": "Moletom fictício com capuz e bolso frontal.",
+      "category": "Moletons",
+      "price_cents": 17990,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "combinations": [
+        {
+          "id": "moletom-capuz-m-marinho",
+          "size": "M",
+          "color": "azul-marinho",
+          "enabled": true
+        },
+        {
+          "id": "moletom-capuz-g-marinho",
+          "size": "G",
+          "color": "azul-marinho",
+          "enabled": true
+        },
+        {
+          "id": "moletom-capuz-gg-preto",
+          "size": "GG",
+          "color": "preto",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

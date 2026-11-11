@@ -1,0 +1,4 @@
+{
+  "name": "Loja Premium",
+  "features": ["catalog", "orders", "payments", "pix", "card", "discount"]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "arquivo": "01-vitrine.jpg",
+    "sha256": "07b3ffc02c2648277241517da74e8fb5706ec6ca0b72e302ebf9d059351bf78e"
+  },
+  {
+    "arquivo": "02-produto-combinacoes.jpg",
+    "sha256": "fd47480df1ac8c941401ee5004fa7669da5a55a49937239b206f8869448c25f3"
+  },
+  {
+    "arquivo": "03-sacola.jpg",
+    "sha256": "356b9a74bcb07ba1795ee160c24bb7d9f1e0959b431b26a6b150ea50fd895741"
+  },
+  {
+    "arquivo": "04-entrega.jpg",
+    "sha256": "900740efde12a690fde986acebbc05e5198a0f9f26a4890e0ca9a3c13b70be90"
+  },
+  {
+    "arquivo": "05-revisao.jpg",
+    "sha256": "7783a315bc1cbea5ffe1f3ec3d39a40d9303b26ba51bc75d3a6a57c29d2ec539"
+  },
+  {
+    "arquivo": "06-pedido-confirmado.jpg",
+    "sha256": "d208cf9507a7d8e6bce1cb6785ab28db7310453a7d5f440702596bfc378ed9d2"
+  },
+  {
+    "arquivo": "07-consulta-pedido.jpg",
+    "sha256": "0278aa008e44181d98002c865471d9ce3cf46ecf9adeac5a5b697b8e6d2b3dcb"
+  },
+  {
+    "arquivo": "08-microsservicos.jpg",
+    "sha256": "49b7ed015a0dc7500d98cf239ff8e68c989be57559a4d26a7f3bb89e61a474ab"
+  },
+  {
+    "arquivo": "09-configurador.jpg",
+    "sha256": "1dd609fe841c1a230be8c53c2201e033c4c123ae0062200c2c9f10d23cea4d54"
+  },
+  {
+    "arquivo": "10-preferencias.jpg",
+    "sha256": "da5d29197854a5e80ee087772ce757d56804f2719aeb57da6fe339025447b055"
+  },
+  {
+    "arquivo": "11-recomendacoes.jpg",
+    "sha256": "cf9d222adcfcdaf5f082ca0cf85a3b1d72c77f40be008581e7e5afd666ae5fac"
+  },
+  {
+    "arquivo": "12-pagina-completa.jpg",
+    "sha256": "fcc6c0240e96602db0a239d4d5738319f6c179f53c637101a4ea4a2e1cb8519a"
+  },
+  {
+    "arquivo": "13-consulta-completa.jpg",
+    "sha256": "6b78f9d432d0c1f9e5a6d7f1d14f85ac4832c97d7bd6150959efa26e2e39e59f"
+  },
+  {
+    "arquivo": "14-recomendacoes-recorte.jpg",
+    "sha256": "85874ef1f31a276217a3dfdd843926eb8180e401481d792e47433e53ee637b79"
+  },
+  {
+    "arquivo": "README.md",
+    "sha256": "da47de7675eac38a74bd2cec9ba6cbd68231302378c62d793c807facb0cb0c0e"
+  },
+  {
+    "arquivo": "recorte-recomendacoes.json",
+    "sha256": "ed5a159be5ceb4371d0eb26d2202a7e3ba06cfc811978aea3057bbdb61fedcc1"
+  }
+]

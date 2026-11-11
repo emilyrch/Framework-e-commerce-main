@@ -1,0 +1,26 @@
+services:
+  catalog:
+    build: .
+    command: ["catalog", "--port", "8001"]
+    environment:
+      PRODUCT_CONFIG: configurations/${PRODUCT_VARIANT:-basic}.json
+    ports: ["8001:8001"]
+  payments:
+    build: .
+    command: ["payments", "--port", "8003"]
+    environment:
+      PRODUCT_CONFIG: configurations/${PRODUCT_VARIANT:-basic}.json
+    ports: ["8003:8003"]
+  orders:
+    build: .
+    command: ["orders", "--port", "8002"]
+    environment:
+      PRODUCT_CONFIG: configurations/${PRODUCT_VARIANT:-basic}.json
+      CATALOG_URL: http://catalog:8001
+      PAYMENTS_URL: http://payments:8003
+      ORDERS_DB: /data/orders.db
+    ports: ["8002:8002"]
+    volumes: ["orders-data:/data"]
+    depends_on: [catalog, payments]
+volumes:
+  orders-data:

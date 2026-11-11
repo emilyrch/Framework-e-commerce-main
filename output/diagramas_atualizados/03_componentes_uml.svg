@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="453.54" height="425" preserveAspectRatio="xMinYMin meet" viewBox="0 0 453 425" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="453.54" height="425"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-425)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="115" y="335" width="224" height="58" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="125" y="381" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,762) scale(1,-1)">«component»</text>
+			<rect x="317" y="372" width="12" height="13" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="314" y="374" width="6" height="3.1999999999999886" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="314" y="380" width="6" height="3.1999999999999886" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="173.571" y="363" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,726) scale(1,-1)">Web API e apresentação</text>
+			<text x="180.93869999999998" y="345" style="font-family: Helvetica; font-size: 7.4px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,690) scale(1,-1)">Next.js / sessão / rotas fixas</text>
+			<rect x="15" y="205" width="180" height="62" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="25" y="255" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,510) scale(1,-1)">«component»</text>
+			<rect x="173" y="246" width="12" height="13" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="170" y="248" width="6" height="3.1999999999999886" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="170" y="254" width="6" height="3.1999999999999886" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="85.3212" y="237" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,474) scale(1,-1)">Catálogo</text>
+			<text x="78.4747" y="215" style="font-family: Helvetica; font-size: 7.4px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,430) scale(1,-1)">services/catalog</text>
+			<rect x="259" y="205" width="180" height="62" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="269" y="255" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,510) scale(1,-1)">«component»</text>
+			<rect x="417" y="246" width="12" height="13" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="414" y="248" width="6" height="3.1999999999999886" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="414" y="254" width="6" height="3.1999999999999886" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="331.106" y="237" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,474) scale(1,-1)">Pedidos</text>
+			<text x="323.9177" y="215" style="font-family: Helvetica; font-size: 7.4px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,430) scale(1,-1)">services/orders</text>
+			<rect x="15" y="55" width="180" height="62" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="25" y="105" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,210) scale(1,-1)">«component»</text>
+			<rect x="173" y="96" width="12" height="13" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="170" y="98" width="6" height="3.200000000000003" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="170" y="104" width="6" height="3.200000000000003" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="68.44380000000001" y="87" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,174) scale(1,-1)">Recomendações</text>
+			<text x="60.9996" y="65" style="font-family: Helvetica; font-size: 7.4px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,130) scale(1,-1)">services/recommendations</text>
+			<rect x="259" y="55" width="180" height="62" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="269" y="105" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,210) scale(1,-1)">«component»</text>
+			<rect x="417" y="96" width="12" height="13" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="414" y="98" width="6" height="3.200000000000003" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="414" y="104" width="6" height="3.200000000000003" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.75; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="297.618" y="87" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,174) scale(1,-1)">Pagamentos simulados</text>
+			<text x="318.364" y="65" style="font-family: Helvetica; font-size: 7.4px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,130) scale(1,-1)">services/payments</text>
+			<path d="M 95 267 L 95 293.2 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="95" cy="297" r="3.8" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 145 335 L 145 320 L 95 320 L 95 305 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 103 297 C 103 301.418278 99.418278 305 95 305 C 90.581722 305 87 301.418278 87 297 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<rect x="92" y="264" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="142" y="332" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="107" y="295" style="font-family: Helvetica; font-size: 7.8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,590) scale(1,-1)">ICatalog</text>
+			<path d="M 350 267 L 350 293.2 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="350" cy="297" r="3.8" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 309 335 L 309 320 L 350 320 L 350 305 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 358 297 C 358 301.418278 354.418278 305 350 305 C 345.581722 305 342 301.418278 342 297 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<rect x="347" y="264" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="306" y="332" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="361" y="295" style="font-family: Helvetica; font-size: 7.8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,590) scale(1,-1)">IOrders</text>
+			<rect x="192" y="232" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="256" y="232" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 195 235 L 223 235 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="227" cy="235" r="4" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 259 235 L 235 235 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 227 227 C 231.418278 227 235 230.581722 235 235 C 235 239.418278 231.418278 243 227 243 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="212.996" y="250" style="font-family: Helvetica; font-size: 7.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,500) scale(1,-1)">IResolve</text>
+			<path d="M 350 117 L 350 151.2 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="350" cy="155" r="3.8" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 350 205 L 350 163 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 358 155 C 358 159.418278 354.418278 163 350 163 C 345.581722 163 342 159.418278 342 155 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<rect x="347" y="114" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="347" y="202" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="362" y="153" style="font-family: Helvetica; font-size: 7.8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,306) scale(1,-1)">IPayment</text>
+			<rect x="92" y="202" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="92" y="114" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 95 205 L 95 169 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="95" cy="165" r="4" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 95 117 L 95 157 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 87 165 C 87 160.581722 90.581722 157 95 157 C 99.418278 157 103 160.581722 103 165 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="107" y="164" style="font-family: Helvetica; font-size: 7.4px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,328) scale(1,-1)">ICandidates</text>
+			<path d="M 42 117 L 42 143.2 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<circle cx="42" cy="147" r="3.8" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 115 364 L 3 364 L 3 178 L 42 178 L 42 155 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 50 147 C 50 151.418278 46.418278 155 42 155 C 37.581722 155 34 151.418278 34 147 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<rect x="39" y="114" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="112" y="361" width="6" height="6" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="54" y="145" style="font-family: Helvetica; font-size: 7.8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,290) scale(1,-1)">IRecommendations</text>
+			<text x="10" y="30" style="font-family: Helvetica; font-size: 7.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,60) scale(1,-1)">Círculo: fornecida; semicírculo: requerida; quadrado: porta UML.</text>
+			<text x="10" y="16" style="font-family: Helvetica; font-size: 7.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,32) scale(1,-1)">Interfaces conceituais dos contratos HTTP; porta UML não é porta TCP.</text>
+		</g>
+	</g>
+</svg>

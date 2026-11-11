@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="453.54" height="350" preserveAspectRatio="xMinYMin meet" viewBox="0 0 453 350" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="453.54" height="350"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-350)" style="clip-path: url(#clip)">
+		<g transform="">
+			<polygon points="145 336, 150 341, 313 341, 308 336" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<polygon points="308 294, 313 299, 313 341, 308 336" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<rect x="145" y="294" width="163" height="42" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="189.63325" y="325" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,650) scale(1,-1)">«executionEnvironment»</text>
+			<text x="203.244" y="310" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,620) scale(1,-1)">Navegador</text>
+			<text x="206.6488" y="303" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,606) scale(1,-1)">Cliente web</text>
+			<polygon points="105 263, 110 268, 350 268, 345 263" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<polygon points="345 207, 350 212, 350 268, 345 263" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<rect x="105" y="207" width="240" height="56" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="188.13325" y="252" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,504) scale(1,-1)">«executionEnvironment»</text>
+			<text x="150.6042" y="237" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,474) scale(1,-1)">Next.js — interface e API Gateway</text>
+			<text x="203.2412" y="216" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,432) scale(1,-1)">:3000 /api/v1</text>
+			<polygon points="0 145, 5 150, 133 150, 128 145" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<polygon points="128 88, 133 93, 133 150, 128 145" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="88" width="128" height="57" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="27.133249999999997" y="134" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,268) scale(1,-1)">«executionEnvironment»</text>
+			<text x="44.748999999999995" y="119" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,238) scale(1,-1)">Catálogo</text>
+			<text x="39.9194" y="97" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,194) scale(1,-1)">FastAPI :8001</text>
+			<polygon points="160 145, 165 150, 293 150, 288 145" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<polygon points="288 88, 293 93, 293 150, 288 145" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<rect x="160" y="88" width="128" height="57" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="187.13325" y="134" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,268) scale(1,-1)">«executionEnvironment»</text>
+			<text x="206.495" y="119" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,238) scale(1,-1)">Pedidos</text>
+			<text x="199.9194" y="97" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,194) scale(1,-1)">FastAPI :8002</text>
+			<polygon points="320 145, 325 150, 453 150, 448 145" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<polygon points="448 88, 453 93, 453 150, 448 145" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<rect x="320" y="88" width="128" height="57" style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="347.13325" y="134" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,268) scale(1,-1)">«executionEnvironment»</text>
+			<text x="357.243" y="119" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,238) scale(1,-1)">Pagamentos</text>
+			<text x="359.9194" y="97" style="font-family: Helvetica; font-size: 7.6px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,194) scale(1,-1)">FastAPI :8003</text>
+			<path d="M 226 294 L 226 268 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="238" y="279" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,558) scale(1,-1)">HTTP mesma origem</text>
+			<path d="M 170 207 L 170 178 L 64 178 L 64 150 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="12" y="187" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,374) scale(1,-1)">HTTP: catálogo público</text>
+			<path d="M 265 207 L 265 178 L 224 178 L 224 150 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="275" y="187" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,374) scale(1,-1)">HTTP: sessão e compra</text>
+			<path d="M 128 116 L 160 116 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="134.8615" y="132" style="font-family: Helvetica; font-size: 7px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,264) scale(1,-1)">HTTP</text>
+			<path d="M 288 116 L 320 116 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="294.8615" y="132" style="font-family: Helvetica; font-size: 7px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,264) scale(1,-1)">HTTP</text>
+			<path d="M 0 8 L 128 8 L 128 40 L 120 48 L 0 48 L 0 8 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<path d="M 120 48 L 120 40 L 128 40 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="50.22145" y="37" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,74) scale(1,-1)">«artifact»</text>
+			<text x="37.552" y="25" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,50) scale(1,-1)">products.json</text>
+			<text x="19.647999999999996" y="15" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">por variante; somente leitura</text>
+			<path d="M 160 8 L 288 8 L 288 40 L 280 48 L 160 48 L 160 8 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<path d="M 280 48 L 280 40 L 288 40 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="210.22145" y="37" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,74) scale(1,-1)">«artifact»</text>
+			<text x="199.992" y="25" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,50) scale(1,-1)">orders.sqlite</text>
+			<text x="177.8945" y="15" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">revisões, tentativas e pedidos</text>
+			<path d="M 320 8 L 448 8 L 448 40 L 440 48 L 320 48 L 320 8 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<path d="M 440 48 L 440 40 L 448 40 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="370.22145" y="37" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,74) scale(1,-1)">«artifact»</text>
+			<text x="353.76800000000003" y="25" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,50) scale(1,-1)">payments.sqlite</text>
+			<text x="347.432" y="15" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,38%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">autorizações simuladas</text>
+			<path d="M 64 88 L 64 48 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<path d="M 67.2 53 L 64 48 L 60.8 53 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 224 88 L 224 48 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<path d="M 227.2 53 L 224 48 L 220.8 53 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<path d="M 384 88 L 384 48 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<path d="M 387.2 53 L 384 48 L 380.8 53 " style="stroke: rgb(14%,20%,25%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<text x="72" y="64" style="font-family: Helvetica; font-size: 6.8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,128) scale(1,-1)">acesso privado</text>
+			<text x="232" y="64" style="font-family: Helvetica; font-size: 6.8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,128) scale(1,-1)">acesso privado</text>
+			<text x="392" y="64" style="font-family: Helvetica; font-size: 6.8px;fill: rgb(14%,20%,25%); stroke:none;" transform="translate(0,128) scale(1,-1)">acesso privado</text>
+		</g>
+	</g>
+</svg>

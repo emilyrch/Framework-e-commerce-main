@@ -1,0 +1,170 @@
+{
+  "git_available": false,
+  "git_directory_present": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "1150ef6ebbab50d27664b97d1c4a0455b570034625a7188984366d777eda6342"
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "414e1b9b6a4f1ef221c0e19aafa01ddf5743abeeb22fa72054a6055a8cdb0815"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "16bdb5ceeec4944d184ee4ab32fca4825cbff81c72fbe948fdff52d7b7016cbb"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1d6dff61a6c8c12675367b44b609c008a854ac05e278c04812d543b8e48bec87"
+    },
+    {
+      "path": "apps/store-ropa/.gitignore",
+      "sha256": "207e265ff4901f9ad9f96d8ce08530e04f9fc600815472a66d0a446096d654cd"
+    },
+    {
+      "path": "apps/store-ropa/eslint.config.mjs",
+      "sha256": "3de4ba23ff1f687685651cad622700613998de80daa30ac4d82c47776a04019d"
+    },
+    {
+      "path": "apps/store-ropa/next.config.ts",
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc"
+    },
+    {
+      "path": "apps/store-ropa/package-lock.json",
+      "sha256": "43315bebe27d37f12d7e317ff752b528025361f9ebbed7d9954c015cf6c95ff8"
+    },
+    {
+      "path": "apps/store-ropa/package.json",
+      "sha256": "159c303514ef9ba53858eed9f5948486a552b93131245e5f437a436e81764476"
+    },
+    {
+      "path": "apps/store-ropa/postcss.config.mjs",
+      "sha256": "141ef24ca27a99d08962210fdf20212d3435fdcfa21b46cd88b44d22f751dfae"
+    },
+    {
+      "path": "apps/store-ropa/README.md",
+      "sha256": "60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f"
+    },
+    {
+      "path": "apps/store-ropa/tsconfig.json",
+      "sha256": "69b8b1e1d17cab218f7a8126c4d1e35eeb38f07213c6225cde075e601a749d9c"
+    },
+    {
+      "path": "apps/store-ropa/public/file.svg",
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4"
+    },
+    {
+      "path": "apps/store-ropa/public/globe.svg",
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf"
+    },
+    {
+      "path": "apps/store-ropa/public/next.svg",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
+    },
+    {
+      "path": "apps/store-ropa/public/vercel.svg",
+      "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4"
+    },
+    {
+      "path": "apps/store-ropa/public/window.svg",
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1"
+    },
+    {
+      "path": "apps/store-ropa/src/app/favicon.ico",
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+    },
+    {
+      "path": "apps/store-ropa/src/app/globals.css",
+      "sha256": "769edf77bd0d101a2d26e6c5656defba8cd885ff37d92279fa293a2756fe5651"
+    },
+    {
+      "path": "apps/store-ropa/src/app/layout.tsx",
+      "sha256": "e65025ca7842d1b3ec1fcb41768f974cfbb9c5ca85abb2fb2ace6dfa4ac4f860"
+    },
+    {
+      "path": "apps/store-ropa/src/app/page.tsx",
+      "sha256": "664918fb906c9f88645061cac8ed2839c3f19b729cea1b0f99062baa9dd24924"
+    },
+    {
+      "path": "configurations/basic.json",
+      "sha256": "65fb8981edba567486ab626eb7a263edc3ec75cfe9f3b177688e217410cfbd92"
+    },
+    {
+      "path": "configurations/premium.json",
+      "sha256": "a8cdad8fce516ba382f504b8a1d86fd057a0f8da20f0ee8450baa7f28de8d5dd"
+    },
+    {
+      "path": "docs/arquitetura-atual.md",
+      "sha256": "3e29e2f6be079ca50ada3a6d96789414bb85787a42ead70f9a8346d2f5ff36f4"
+    },
+    {
+      "path": "docs/arquitetura.md",
+      "sha256": "bfabb0c425bbf69c118ae07fa7ee6d2e9d64a129dee8c3c0a148026ca6108345"
+    },
+    {
+      "path": "docs/contratos-api.md",
+      "sha256": "0b65ccfc33fc426b6196fc9f0f8a8ab3306ae43c55c248ee5791cbc3381de4e6"
+    },
+    {
+      "path": "docs/decisoes-e-etapas.md",
+      "sha256": "dbb2def4feb05b2c5834f773d272ccd6cc066d641630c0faa07d949f4d81821c"
+    },
+    {
+      "path": "docs/diagnostico.md",
+      "sha256": "b80a9ab17ad0ef1c290911695174a1fe93dcdd4ebaf2a053acb2ec6ab8a1f848"
+    },
+    {
+      "path": "docs/historico-original.md",
+      "sha256": "a837cb45cafa1438a6afcfbec2c95c10aaa3cfbc177b1066845daae4d47eab1e"
+    },
+    {
+      "path": "docs/modelo-lps.md",
+      "sha256": "0bf81bfee0a65e135c2838c5043f7b207516422041909f6f0c5c18ecc81f0b56"
+    },
+    {
+      "path": "docs/plano-mvp.md",
+      "sha256": "304892c78ab7ffaa6bb2b6cb2b51fde814a5c1bf04e0b7c1c32a0ae787b17306"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "784961982e321e0e81ae661e60753863c2a6a1adeac14c0409897a542c3e7b78"
+    },
+    {
+      "path": "docs/recuperacao.md",
+      "sha256": "84fe4c0fbd7ce6b18206c1aecbafde413a033c293dec9f99decc95fc06fbec9d"
+    },
+    {
+      "path": "docs/validacao.md",
+      "sha256": "d3234aea693fe9f1e2bf28a7f33abf72bf67e338258675da89b20953941cd7f1"
+    },
+    {
+      "path": "lps/components.py",
+      "sha256": "bfa693a3d05c4767326f97f48ba4dc418b3a562a267a6238451969272f1ed7fc"
+    },
+    {
+      "path": "lps/features.py",
+      "sha256": "193fd288bd3e8ae9deb63f274022611376855bba933cc01d0cddcd2835507199"
+    },
+    {
+      "path": "lps/__init__.py",
+      "sha256": "790e07cb28cad3d0b0eb6ffebac96cd6ee11a3c234276d25fe12a07a602d2195"
+    },
+    {
+      "path": "packages/catalog-module/products.ts",
+      "sha256": "91f1c3c3ae7b258f3e625ac443c7f429636d226f7cb3e9db3a36c7ce42f973d7"
+    },
+    {
+      "path": "services/server.py",
+      "sha256": "80e4c08c06420b113e6dcdb523fc5c965096719d6d26366434f028bc65abd783"
+    },
+    {
+      "path": "services/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/test_lps.py",
+      "sha256": "1e0800488edccbc1e9243ca6283f2ca8375eb4bc809c4147a6c34fd11981ced9"
+    }
+  ]
+}

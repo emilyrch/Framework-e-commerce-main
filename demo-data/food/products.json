@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "store_id": "alimentos-demo",
+  "domain": "food",
+  "dataset_id": "food-demo-v1",
+  "fictional": true,
+  "products": [
+    {
+      "id": "biscoito",
+      "kind": "food",
+      "name": "Biscoito de Trigo Demo",
+      "description": "Pacote fictício de biscoitos de 150 g, vendido por unidade.",
+      "category": "Biscoitos",
+      "price_cents": 2590,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "sale_unit": "unit",
+      "food_information": {
+        "fictional": true,
+        "ingredients": [
+          "farinha de trigo",
+          "açúcar",
+          "óleo vegetal"
+        ],
+        "allergens": {
+          "status": "known",
+          "contains": [
+            "trigo"
+          ],
+          "may_contain": [
+            "leite"
+          ]
+        },
+        "nutrition_per_serving": {
+          "serving_amount": 30,
+          "serving_unit": "g",
+          "serving_description": "3 biscoitos",
+          "energy_kcal": 140,
+          "carbohydrates_g": 20,
+          "total_sugars_g": 6,
+          "protein_g": 2,
+          "total_fat_g": 6,
+          "saturated_fat_g": 2,
+          "trans_fat_g": 0,
+          "fiber_g": 1,
+          "sodium_mg": 90
+        }
+      }
+    },
+    {
+      "id": "suco",
+      "kind": "food",
+      "name": "Suco de Uva Demo",
+      "description": "Caixa fictícia de bebida de uva de 1 L, vendida por unidade.",
+      "category": "Bebidas",
+      "price_cents": 1390,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "sale_unit": "unit",
+      "food_information": {
+        "fictional": true,
+        "ingredients": [
+          "água",
+          "suco de uva concentrado"
+        ],
+        "allergens": {
+          "status": "known",
+          "contains": [],
+          "may_contain": []
+        },
+        "nutrition_per_serving": {
+          "serving_amount": 200,
+          "serving_unit": "ml",
+          "serving_description": "1 copo",
+          "energy_kcal": 90,
+          "carbohydrates_g": 22,
+          "total_sugars_g": 20,
+          "protein_g": 0,
+          "total_fat_g": 0,
+          "saturated_fat_g": 0,
+          "trans_fat_g": 0,
+          "fiber_g": 0,
+          "sodium_mg": 4
+        }
+      }
+    },
+    {
+      "id": "arroz",
+      "kind": "food",
+      "name": "Arroz Branco Demo",
+      "description": "Pacote fictício de arroz branco de 1 kg, vendido por unidade.",
+      "category": "Grãos",
+      "price_cents": 890,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "sale_unit": "unit",
+      "food_information": {
+        "fictional": true,
+        "ingredients": [
+          "arroz branco"
+        ],
+        "allergens": {
+          "status": "known",
+          "contains": [],
+          "may_contain": []
+        },
+        "nutrition_per_serving": {
+          "serving_amount": 50,
+          "serving_unit": "g",
+          "serving_description": "1 porção crua",
+          "energy_kcal": 175,
+          "carbohydrates_g": 39,
+          "total_sugars_g": 0,
+          "protein_g": 3.5,
+          "total_fat_g": 0.4,
+          "saturated_fat_g": 0.1,
+          "trans_fat_g": 0,
+          "fiber_g": 1,
+          "sodium_mg": 0
+        }
+      }
+    },
+    {
+      "id": "granola",
+      "kind": "food",
+      "name": "Granola com Castanhas Demo",
+      "description": "Pacote fictício de granola de 250 g. Informação sobre alergênicos desconhecida neste conjunto de demonstração.",
+      "category": "Cereais",
+      "price_cents": 2190,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "sale_unit": "unit",
+      "food_information": {
+        "fictional": true,
+        "ingredients": [
+          "aveia",
+          "castanhas",
+          "açúcar"
+        ],
+        "allergens": {
+          "status": "unknown",
+          "contains": null,
+          "may_contain": null
+        },
+        "nutrition_per_serving": {
+          "serving_amount": 40,
+          "serving_unit": "g",
+          "serving_description": "4 colheres",
+          "energy_kcal": 160,
+          "carbohydrates_g": 25,
+          "total_sugars_g": 7,
+          "protein_g": 4,
+          "total_fat_g": 5,
+          "saturated_fat_g": 0.8,
+          "trans_fat_g": 0,
+          "fiber_g": 3,
+          "sodium_mg": 25
+        }
+      }
+    },
+    {
+      "id": "geleia",
+      "kind": "food",
+      "name": "Geleia de Morango Demo",
+      "description": "Pote fictício de geleia de morango de 200 g, vendido por unidade.",
+      "category": "Conservas doces",
+      "price_cents": 1690,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "sale_unit": "unit",
+      "food_information": {
+        "fictional": true,
+        "ingredients": [
+          "morango",
+          "açúcar",
+          "pectina"
+        ],
+        "allergens": {
+          "status": "known",
+          "contains": [],
+          "may_contain": []
+        },
+        "nutrition_per_serving": {
+          "serving_amount": 20,
+          "serving_unit": "g",
+          "serving_description": "1 colher",
+          "energy_kcal": 48,
+          "carbohydrates_g": 12,
+          "total_sugars_g": 10,
+          "protein_g": 0,
+          "total_fat_g": 0,
+          "saturated_fat_g": 0,
+          "trans_fat_g": 0,
+          "fiber_g": 0.4,
+          "sodium_mg": 2
+        }
+      }
+    },
+    {
+      "id": "chocolate",
+      "kind": "food",
+      "name": "Chocolate ao Leite Demo",
+      "description": "Barra fictícia de chocolate ao leite de 90 g, vendida por unidade.",
+      "category": "Chocolates",
+      "price_cents": 1190,
+      "currency": "BRL",
+      "image_url": "/demo/catalog-fallback.svg",
+      "sale_unit": "unit",
+      "food_information": {
+        "fictional": true,
+        "ingredients": [
+          "açúcar",
+          "manteiga de cacau",
+          "leite em pó",
+          "cacau",
+          "lecitina de soja"
+        ],
+        "allergens": {
+          "status": "known",
+          "contains": [
+            "leite",
+            "soja"
+          ],
+          "may_contain": [
+            "amendoim"
+          ]
+        },
+        "nutrition_per_serving": {
+          "serving_amount": 25,
+          "serving_unit": "g",
+          "serving_description": "4 quadrados",
+          "energy_kcal": 135,
+          "carbohydrates_g": 14,
+          "total_sugars_g": 12,
+          "protein_g": 2,
+          "total_fat_g": 8,
+          "saturated_fat_g": 4.8,
+          "trans_fat_g": 0,
+          "fiber_g": 1,
+          "sodium_mg": 15
+        }
+      }
+    }
+  ]
+}
